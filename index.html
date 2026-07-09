@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+
+<nav class="navbar">
+
+<div class="logo">ShopSphere</div>
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#shop">Shop</a></li>
+
+<li><a href="#categories">Categories</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<div class="icons">
+
+<span id="cartCount">🛒 0</span>
+
+<div class="menu-btn">&#9776;</div>
+
+</div>
+
+</nav>
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>Premium Shopping Experience</h1>
+
+<p>Discover amazing products with exclusive offers and fast delivery.</p>
+
+<a href="#shop" class="btn">Shop Now</a>
+
+</div>
+
+</section>
+<section class="shop" id="shop">
+
+<h2 class="section-title">Our Products</h2>
+
+<div class="controls">
+
+<input type="text" id="searchInput" placeholder="🔍 Search products...">
+
+<div class="filters">
+
+<button class="filter-btn active" data-category="all">All</button>
+
+<button class="filter-btn" data-category="electronics">Electronics</button>
+
+<button class="filter-btn" data-category="fashion">Fashion</button>
+
+<button class="filter-btn" data-category="sports">Sports</button>
+
+</div>
+
+</div>
+
+<div class="product-container" id="productContainer">
+
+<div class="product-card electronics">
+<span class="badge">20% OFF</span>
+<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=700">
+<h3>iPhone 16</h3>
+<p>⭐⭐⭐⭐⭐</p>
+<h4>₹89,999</h4>
+<div class="product-actions">
+
+<button class="wishlist">🤍</button>
+
+<button class="cart-btn">
+Add to Cart
+</button>
+
+</div>
+</div>
+
+<div class="product-card fashion">
+<span class="badge">NEW</span>
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700">
+<h3>Nike Shoes</h3>
+<p>⭐⭐⭐⭐⭐</p>
+<h4>₹5,499</h4>
+<div class="product-actions">
+
+<button class="wishlist">🤍</button>
+
+<button class="cart-btn">
+Add to Cart
+</button>
+
+</div>
+</div>
+
+<div class="product-card sports">
+<span class="badge">HOT</span>
+<img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=700">
+<h3>Football</h3>
+<p>⭐⭐⭐⭐⭐</p>
+<h4>₹1,299</h4>
+<div class="product-actions">
+
+<button class="wishlist">🤍</button>
+
+<button class="cart-btn">
+Add to Cart
+</button>
+
+</div>
+</div>
+
+</div>
+
+</section>
+<section class="categories" id="categories">
+
+    <h2 class="section-title">Shop by Categories</h2>
+
+    <div class="category-grid">
+
+        <div class="category-card">📱 Electronics</div>
+
+        <div class="category-card">👕 Fashion</div>
+
+        <div class="category-card">⚽ Sports</div>
+
+        <div class="category-card">🏠 Home</div>
+
+    </div>
+
+</section>
+<section class="newsletter">
+
+<h2>Get Exclusive Deals</h2>
+
+<p>Subscribe to receive discounts, offers and new arrivals.</p>
+
+<form id="newsletterForm">
+
+<input
+type="email"
+placeholder="Enter your email"
+required>
+
+<button type="submit">
+Subscribe
+</button>
+
+</form>
+
+<p id="newsletterMsg"></p>
+
+</section>
+<section class="testimonials">
+
+<h2 class="section-title">What Customers Say</h2>
+
+<div class="testimonial-container">
+
+<div class="testimonial-card">
+<img src="https://randomuser.me/api/portraits/women/44.jpg">
+<h3>Ananya Pande</h3>
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Amazing quality and super fast delivery. Highly recommended!"</p>
+</div>
+
+<div class="testimonial-card">
+<img src="https://randomuser.me/api/portraits/men/32.jpg">
+<h3>Sarthak Hole</h3>
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Excellent customer service and premium products."</p>
+</div>
+
+<div class="testimonial-card">
+<img src="https://randomuser.me/api/portraits/women/68.jpg">
+<h3>Shree Shinde</h3>
+<p>⭐⭐⭐⭐⭐</p>
+<p>"One of the best online shopping experiences I've had."</p>
+</div>
+
+</div>
+
+</section>
+<section class="brands">
+
+<h2 class="section-title">Trusted Brands</h2>
+
+<div class="brand-grid">
+
+<div>🍎 Apple</div>
+<div>✔ Nike</div>
+<div>📱 Samsung</div>
+<div>🎧 Sony</div>
+<div>👟 Adidas</div>
+<div>💻 Dell</div>
+
+</div>
+
+</section>
+<button id="topBtn">⬆</button>
+<footer class="footer" id="contact">
+
+<div class="footer-container">
+
+<div class="footer-box">
+<h2>ShopSphere</h2>
+<p>Your trusted online shopping destination for premium products.</p>
+</div>
+
+<div class="footer-box">
+<h3>Quick Links</h3>
+<a href="#home">Home</a>
+<a href="#shop">Shop</a>
+<a href="#categories">Categories</a>
+<a href="#contact">Contact</a>
+</div>
+
+<div class="footer-box">
+<h3>Contact</h3>
+<p>📍 Pune, Maharashtra</p>
+<p>📞 +91 84210 55582</p>
+<p>✉️ support@shopsphere.com</p>
+</div>
+
+</div>
+
+<hr>
+
+<p class="copyright">
+© 2026 ShopSphere | Designed by Aryan Kharat
+</p>
+
+</footer>
+
+</header>
+<script src="script.js"></script>
+</body>
+</html>
